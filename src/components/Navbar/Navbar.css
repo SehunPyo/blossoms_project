@@ -19,13 +19,14 @@
             align-items: center; /* 세로 방향 정렬 */
         }
         .Nav-title{
-            margin-top: 20px;
-
+            margin-top: 30px;
+            text-decoration: none;
             font-size: 30px;
-            color: White;
-            filter: drop-shadow(0 0 0.1em rgb(143, 143, 143));
+            color: rgb(43, 43, 43);
             font-family: 'Tenada';
-        }        
+        }
+
+        /* ------------------------------------------ */  
 
         .Nav-02{
             width: 100%;
@@ -37,8 +38,22 @@
             align-items: center; /* 세로 방향 정렬 */
 
         }
+            .Nav-mypage, .Nav-up, .Nav-now, .Nav-friends{
+                text-decoration: none;
+
+                font-size: 17px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(43, 43, 43);
+
+                margin-top: 25px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+        /* ------------------------------------------ */  
+
         .Nav-03{
-            width: 300px;
+            width: 450px;
             height: 100%;
             text-align: center;
 
@@ -47,6 +62,47 @@
             align-items: center; /* 세로 방향 정렬 */
             font-family: serif;
         }    
+            .Nav-write{
+                width: 120px;
+                height: 30px;
+
+                display: flex;
+                justify-content: center; /* 가로 방향 정렬 */
+                align-items: center; /* 세로 방향 정렬 */
+
+                text-decoration: none;
+
+                font-size: 16px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(43, 43, 43);
+
+
+                margin-top: 20px;
+
+                border: 1px solid rgb(43,43,43);
+                border-radius: 15px;
+            }
+            .Nav-login{
+                width: 120px;
+                height: 30px;
+
+                display: flex;
+                justify-content: center; /* 가로 방향 정렬 */
+                align-items: center; /* 세로 방향 정렬 */
+
+                text-decoration: none;
+
+                font-size: 16px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(255, 255, 255);
+                background-color: rgb(43, 43, 43);
+
+                margin-top: 20px;
+                margin-left: 10px;
+
+                border: 1px solid rgb(43,43,43);
+                border-radius: 15px;
+            }   
     }
 
 
@@ -63,15 +119,16 @@
         
             margin-left: 15em;
         }
-        .Nav-title{
-            margin-top: 20px;
+            .Nav-title{
+                margin-top: 30px;
+                text-decoration: none;
+                font-size: 30px;
+                color: rgb(43, 43, 43);
+                font-family: 'Tenada';
+            }
 
-            font-size: 30px;
-            color: White;
-            filter: drop-shadow(0 0 0.1em rgb(143, 143, 143));
-            font-family: 'Tenada';
-        }
-    
+        /* ------------------------------------------ */
+
         .Nav-02{
             width: 100%;
             height: 100%;
@@ -80,10 +137,25 @@
             display: flex;
             justify-content: center; /* 가로 방향 정렬 */
             align-items: center; /* 세로 방향 정렬 */
-        
         }
+            .Nav-mypage, .Nav-up, .Nav-now, .Nav-friends{
+                text-decoration: none;
+
+                font-size: 17px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(43, 43, 43);
+
+                margin-top: 25px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+
+        /* ------------------------------------------ */
+
+
         .Nav-03{
-            width: 400px;
+            width: 600px;
             height: 100%;
             text-align: center;
         
@@ -93,6 +165,47 @@
             
             margin-right: 15em;
         }    
+            .Nav-write{
+                width: 120px;
+                height: 30px;
+
+                display: flex;
+                justify-content: center; /* 가로 방향 정렬 */
+                align-items: center; /* 세로 방향 정렬 */
+
+                text-decoration: none;
+    
+                font-size: 16px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(43, 43, 43);
+    
+                
+                margin-top: 20px;
+
+                border: 1px solid rgb(43,43,43);
+                border-radius: 15px;
+            }
+            .Nav-login{
+                width: 120px;
+                height: 30px;
+
+                display: flex;
+                justify-content: center; /* 가로 방향 정렬 */
+                align-items: center; /* 세로 방향 정렬 */
+
+                text-decoration: none;
+
+                font-size: 16px;
+                font-family: 'GmarketSansMedium';
+                color: rgb(255, 255, 255);
+                background-color: rgb(43, 43, 43);
+
+                margin-top: 20px;
+                margin-left: 10px;
+
+                border: 1px solid rgb(43,43,43);
+                border-radius: 15px;
+            }            
     }    
 
 
@@ -110,11 +223,10 @@
             margin-left: 30em;
         }
         .Nav-title{
-            margin-top: 20px;
+            margin-top: 30px;
 
             font-size: 30px;
-            color: White;
-            filter: drop-shadow(0 0 0.1em rgb(143, 143, 143));
+            color: rgb(43, 43, 43);
             font-family: 'Tenada';
         }        
     
@@ -129,7 +241,7 @@
             
         }
         .Nav-03{
-            width: 500px;
+            width: 600px;
             height: 100%;
             text-align: center;
         
@@ -148,6 +260,22 @@
 @font-face {
     font-family: 'Tenada';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'EliceDigitalBaeum-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
