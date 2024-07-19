@@ -1,0 +1,13 @@
+.Sidebar{
+    /* 색상 */
+    background-color: rgb(88, 88, 88);
+
+    /* 사이즈 */
+    width: 30vmin;
+
+    /* 위치 */
+    z-index: 0;
+
+    /* 정렬 */
+    text-align: center;
+}
