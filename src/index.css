@@ -1,5 +1,12 @@
 body {
   margin: 0;
+
+  /* 드래그 막기 */
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+
 }
 
 @tailwind base;

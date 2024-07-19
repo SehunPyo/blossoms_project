@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
   return (
     <div className="Home">
-      <h1 className='title'>Main 입니다.</h1>
+      <h3 className='title'>Main</h3>
     </div>
   );
 }
