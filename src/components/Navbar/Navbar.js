@@ -14,16 +14,13 @@ function Navbar() {
         {/* 로고 */}
         <div className='Nav-01'> 
           {/* 블로그 이름 클릭하면 메인화면으로 */}
-          <Link to="/home" className='Nav-title'>BloSSoms.</Link>
-          {/* <a href='../../App.js' className='Nav-title'>
-            BloSSoms
-          </a> */}
+          <Link to="/home" className='Nav-title'>🅱️BloSSoms.</Link>
         </div>
         
         {/* Nav Menu */}
         <div className='Nav-02'>
           {/* 실시간 인기글 보기 */}
-          <Link to="/home" className='Nav-up'>추천 UP</Link>
+          <Link to="/home" className='Nav-up'>인기 글</Link>
 
           {/* 실시간 최신글 보기 */}
           <Link to="/home" className='Nav-now'>최근 글</Link>
@@ -33,8 +30,6 @@ function Navbar() {
 
           {/* 내 블로그  */}
           <Link to="/mypage" className='Nav-mypage'>내 블로그</Link>
-
-
         </div>
         
         <div className='Nav-03'>
