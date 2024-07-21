@@ -5,9 +5,8 @@ import './My_page.css';
 
 function Mypage() {
     return (
-        <div>
-            My Page
-        <Link to="/home" className='Login-title'>🅱️BloSSoms.</Link>
+        <div className='My_Page'>
+            <h3 className='Page_title'>My Page</h3>
         </div>
     );
 }

@@ -7,7 +7,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <h3 className='title'>HOME</h3>
+      <h3 className='Page_title'>HOME</h3>
     </div>
   );
 }

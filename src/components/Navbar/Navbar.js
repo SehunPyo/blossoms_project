@@ -34,7 +34,7 @@ function Navbar() {
         
         <div className='Nav-03'>
           {/* 글 작성  */}
-          <a href='../../App.js' className='Nav-write'>글 작성</a>
+          <Link to="/write" className='Nav-write'>글 작성</Link>
           {/* 로그인/회원가입 */}
           <Link to="/login" className='Nav-login'>LOG IN</Link>
         </div>
