@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center; /* 가로 방향 중앙 정렬 */
     align-items: center; /* 세로 방향 중앙 정렬 */
+    
     height: 100vh; /* 화면 전체 높이 */
     box-sizing: border-box; /* 박스 모델을 보더 박스로 설정 */
   }

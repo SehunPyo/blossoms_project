@@ -1,7 +1,4 @@
 #Navbar {
-    height: 3em;
-    
-
     .Nav-background{
         height: 3em;
         display: flex;
@@ -20,7 +17,7 @@
             align-items: center; /* 세로 방향 정렬 */
         }
         .Nav-title{
-            margin-top: 30px;
+            margin-top: 20px;
             text-decoration: none;
             font-size: 30px;
             color: rgb(43, 43, 43);
@@ -127,7 +124,7 @@
             margin-left: 15em;
         }
             .Nav-title{
-                margin-top: 30px;
+                margin-top: 20px;
                 text-decoration: none;
                 font-size: 30px;
                 color: rgb(43, 43, 43);
@@ -236,10 +233,11 @@
             margin-left: 30em;
         }
             .Nav-title{
-                margin-top: 30px;
+                margin-top: 20px;
                 text-decoration: none;
                 font-size: 30px;
                 color: rgb(43, 43, 43);
+                
                 font-family: 'Tenada';
             }      
     
@@ -345,12 +343,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'ChosunGu';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 @font-face {

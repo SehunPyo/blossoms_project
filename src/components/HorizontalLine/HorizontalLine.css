@@ -1,0 +1,12 @@
+.HorizonLine {
+    width: 15em;
+
+    text-align: center;
+    border-Bottom: 1px solid #aaa;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+    font-size: 14px;
+    color: #aaa;
+}
+

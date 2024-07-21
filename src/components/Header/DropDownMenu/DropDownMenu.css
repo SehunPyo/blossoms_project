@@ -1,0 +1,14 @@
+.DropDownMenu{
+      position: 'absolute';
+      top: '50px';
+      right: 0;
+      background-Color: '#fff';
+      border: '1px solid #ccc';
+      border-Radius: '4px';
+      list-style-type: 'none';
+      padding: '10px 0';
+      margin: 0;
+      width: '150px';
+      box-Shadow: '0 0 10px rgba(0, 0, 0, 0.1)';
+      z-index: 0;
+    }
