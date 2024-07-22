@@ -16,13 +16,15 @@
             justify-content: center; /* 가로 방향 정렬 */
             align-items: center; /* 세로 방향 정렬 */
         }
-        .Nav-title{
-            margin-top: 20px;
-            text-decoration: none;
-            font-size: 30px;
-            color: rgb(43, 43, 43);
-            font-family: 'Tenada';
-        }
+            .Nav-title{
+                margin-top: 20px;
+                margin-left: 5px;
+
+                text-decoration: none;
+                font-size: 30px;
+                color: rgb(43, 43, 43);
+                font-family: 'Tenada';
+            }
 
         /* ------------------------------------------ */  
 
@@ -36,7 +38,10 @@
             align-items: center; /* 세로 방향 정렬 */
 
         }
-            .Nav-mypage, .Nav-up, .Nav-now, .Nav-friends{
+            .Nav-mypage,
+            .Nav-up,
+            .Nav-now,
+            .Nav-friends{
                 text-decoration: none;
 
                 font-size: 17px;
@@ -48,6 +53,18 @@
                 padding-left: 30px;
                 padding-right: 30px;
             }
+            .Nav-mypage:hover,
+            .Nav-up:hover,
+            .Nav-now:hover,
+            .Nav-friends:hover{
+                color: rgb(255, 76, 100);
+                font-size: 18px;
+
+                padding-left: 40px;
+                padding-right: 40px;
+
+                transition: 0.5s;
+            }
 
         /* ------------------------------------------ */  
 
@@ -55,6 +72,8 @@
             width: 450px;
             height: 100%;
             text-align: center;
+
+            margin-right: 5px;
 
             display: flex;
             justify-content: center; /* 가로 방향 정렬 */
@@ -142,7 +161,10 @@
             justify-content: center; /* 가로 방향 정렬 */
             align-items: center; /* 세로 방향 정렬 */
         }
-            .Nav-mypage, .Nav-up, .Nav-now, .Nav-friends{
+            .Nav-mypage
+            ,.Nav-up
+            ,.Nav-now
+            ,.Nav-friends{
                 text-decoration: none;
 
                 font-size: 17px;
@@ -153,6 +175,18 @@
                 margin-top: 25px;
                 padding-left: 30px;
                 padding-right: 30px;
+            }
+            .Nav-mypage:hover,
+            .Nav-up:hover,
+            .Nav-now:hover,
+            .Nav-friends:hover{
+                color: rgb(255, 76, 100);
+                font-size: 18px;
+
+                padding-left: 40px;
+                padding-right: 40px;
+
+                transition: 0.5s;
             }
 
 
@@ -253,17 +287,34 @@
             align-items: center; /* 세로 방향 정렬 */
             
         }
-            .Nav-mypage, .Nav-up, .Nav-now, .Nav-friends{
+            .Nav-mypage,
+            .Nav-up,
+            .Nav-now,
+            .Nav-friends{
                 text-decoration: none;
 
                 font-size: 17px;
                 font-family: 'ChosunGu';
                 font-weight: 500;
+
                 color: rgb(43, 43, 43);
 
                 margin-top: 25px;
-                padding-left: 30px;
-                padding-right: 30px;
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+            .Nav-mypage:hover,
+            .Nav-up:hover,
+            .Nav-now:hover,
+            .Nav-friends:hover{
+                color: rgb(255, 76, 100);
+                font-size: 19px;
+
+                padding-left: 60px;
+                padding-right: 60px;
+                
+                transition: 0.5s;
+                margin-top: 27px;
             }
 
     /* ------------------------------------------ */        
