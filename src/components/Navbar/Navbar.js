@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom'
 
 import './Navbar.css';
 
-// image
-// import logo from 'assets/images/nav-logo.png';
 
 function Navbar() {
   return (

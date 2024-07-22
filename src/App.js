@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 
 // Conponents
 import Navbar from './components/Navbar/Navbar.js';
-import Login from './components/Login/Login.js';
 
 // pages
 import Home from './pages/Home/Home.js';
 import Mypage from './pages/MyPage/My_page.js';
 import Write from './pages/Write/Write.js';
+import Login from './pages/Login/Login.js';
 
 // Styles
 import './App.css';
