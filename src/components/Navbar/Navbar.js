@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 import './Navbar.css';
+import Logo from '../../assets/images/Logo/Logo.png';
 
 
 function Navbar() {
@@ -12,7 +13,8 @@ function Navbar() {
         {/* 로고 */}
         <div className='Nav-01'> 
           {/* 블로그 이름 클릭하면 메인화면으로 */}
-          <Link to="/home" className='Nav-title'>🅱️BloSSoms.</Link>
+            <img src={Logo} alt="Logo" style={{ width: '27px', height: '27px', marginRight: '8px' }} />
+            <span><Link to="/home" className='Nav-title'>BloSSoms.</Link> </span>
         </div>
         
         {/* Nav Menu */}

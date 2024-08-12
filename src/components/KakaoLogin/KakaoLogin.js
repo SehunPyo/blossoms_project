@@ -4,7 +4,7 @@ import './KakaoLogin.css';
 
 
 function KakaoLogin() {
-        const Rest_api_key='556805e91e800197a8026aa2dfe3c65b' //REST API KEY 입력
+        const Rest_api_key = process.env.KAKAO_API_KEY; //REST API KEY 입력
         const redirect_uri = 'http://localhost:4000/auth/callback'; // 서버의 Redirect URI 입력
 
         // auth 요청 URL
